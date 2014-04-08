@@ -1,0 +1,15 @@
+{
+  "name": "FinalCountdown",
+  "version": "1.0.0",
+  "description": "Send Link to Final Countdown on YouTube",
+  "main": "europerocks.js",
+  "scripts": {
+    "run": "node europerocks.js"
+  },
+  "author": "Justin Wehrman",
+  "license": "ISC",
+  "dependencies": {
+    "sendmail": "~0.2.1",
+    "node-schedule": "~0.1.13"
+  }
+}
