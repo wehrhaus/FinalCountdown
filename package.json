@@ -8,8 +8,19 @@
   },
   "author": "Justin Wehrman",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "sendmail": "~0.2.1",
     "node-schedule": "~0.1.13"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wehrhaus/FinalCountdown.git"
+  },
+  "keywords": [
+    "email"
+  ],
+  "bugs": {
+    "url": "https://github.com/wehrhaus/FinalCountdown/issues"
+  },
+  "homepage": "https://github.com/wehrhaus/FinalCountdown"
 }
