@@ -9,8 +9,8 @@ rule.minute = 59;
 
 emailer = schedule.scheduleJob(rule, function() {
     sendmail({
-        from: 'Justin.Wehrman@RedFuse.com',
-        to: 'Matt.Brown@RedFuse.com',
+        from: '',
+        to: '',
         subject: '',
         content: '',
       }, function(err, reply) {
