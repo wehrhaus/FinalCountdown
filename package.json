@@ -1,10 +1,10 @@
 {
-  "name": "FinalCountdown",
+  "name": "email_remindererer",
   "version": "1.0.0",
-  "description": "Send Link to Final Countdown on YouTube",
+  "description": "Send Email Reminder Every nth Minute of the Hour",
   "main": "europerocks.js",
   "scripts": {
-    "run": "node europerocks.js"
+    "run": "node runner.js"
   },
   "author": "Justin Wehrman",
   "license": "ISC",
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wehrhaus/FinalCountdown.git"
+    "url": "git://github.com/wehrhaus/email_remindererer.git"
   },
   "keywords": [
     "email"
   ],
   "bugs": {
-    "url": "https://github.com/wehrhaus/FinalCountdown/issues"
+    "url": "https://github.com/wehrhaus/email_remindererer/issues"
   },
-  "homepage": "https://github.com/wehrhaus/FinalCountdown"
+  "homepage": "https://github.com/wehrhaus/email_remindererer"
 }
