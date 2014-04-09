@@ -1,13 +1,16 @@
 var sendmail = require('sendmail')(),
-    schedule = require('node-schedule');
+    schedule = require('node-schedule'),
+    rule = new schedule.RecurrenceRule(),
+    emailer = {};
 
-var rule = new schedule.RecurrenceRule();
+
 rule.minute = 59;
 
-var j = schedule.scheduleJob(rule, function() {
+
+emailer = schedule.scheduleJob(rule, function() {
     sendmail({
-        from: '',
-        to: '',
+        from: 'Justin.Wehrman@RedFuse.com',
+        to: 'Matt.Brown@RedFuse.com',
         subject: '',
         content: '',
       }, function(err, reply) {
